@@ -27,11 +27,55 @@
 }
 .btun{
     border: none;
-    background-color: #1b7194;
+    background-color: black;
     color: white;
-    width: 22%;
+    width: 24%;
     padding: 0.8%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: medium;
+    margin-bottom: 0.1%;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.line {
+    flex: 1; /* Makes the line take equal space on both sides */
+    height: 1px;
+    background-color: #d1d1d1; 
+    margin-left: 575px;
+    margin-right: 16px;
+    margin-bottom: 2%;
+}
+.line1 {
+    flex: 1; /* Makes the line take equal space on both sides */
+    height: 1px;
+    background-color: #d1d1d1; 
+    margin-left: 16px;
+    margin-right: 575px;
+    margin-bottom: 2%;
+}
+.or-text {
+    font-size: 15px;
+    color: #6c757d; /* Slightly gray text */
+    font-weight: 800px;
+    white-space: nowrap; /* Prevents text from breaking */
+    margin-bottom: 2%;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.asdf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
