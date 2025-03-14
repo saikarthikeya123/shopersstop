@@ -1,0 +1,37 @@
+.h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 3%;
+}
+.sm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10;
+    margin-top: 0px;
+}
+.form1  input[type="text"]{
+    border-radius: 0px;
+    padding: 0.98%;
+    width: 22%;
+    border: 0.5px solid ;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+.btun{
+    border: none;
+    background-color: #1b7194;
+    color: white;
+    width: 22%;
+    padding: 0.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
