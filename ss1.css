@@ -11,10 +11,11 @@
     padding: 0.15%;
     padding-left: 70%;
     padding-right: 5%;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 100;
     padding-top: 0.8%;
+    width: 100vw;
 }
 .nvbr a{
     text-decoration: none;
@@ -93,7 +94,7 @@
     padding-top: 1%;
 }
 .seven1{
-    font-size: 13px;
+    font-size: 16px;
 }
 .style1{
     font-weight: bold;
